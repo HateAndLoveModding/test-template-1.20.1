@@ -1,4 +1,4 @@
-package com.example.block;
+package com.example;
 
 import com.example.test;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

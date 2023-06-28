@@ -1,6 +1,5 @@
-package com.example.block;
+package com.example;
 
-import com.example.test;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;

@@ -1,7 +1,5 @@
 package com.example;
 
-import com.example.block.ModBlocks;
-import com.example.block.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

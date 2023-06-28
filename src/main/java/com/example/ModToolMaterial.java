@@ -1,4 +1,4 @@
-package com.example.block;
+package com.example;
 
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ToolMaterial;
