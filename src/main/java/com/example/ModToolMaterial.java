@@ -10,6 +10,9 @@ public enum ModToolMaterial implements ToolMaterial {
     TANZANITE(0, 1800, 14000.0F, 70000.0F, 25,
             () -> Ingredient.ofItems(Blocks.ACACIA_LOG));
 
+    //TANZANITE(-1, 1800, 10.0F, 10.0F, 25,
+    //                  () -> Ingredient.ofItems(Blocks.ACACIA_LOG));
+
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

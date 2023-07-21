@@ -9,6 +9,7 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class CustomTool extends MiningToolItem {
+
     public static final TagKey<Block> CUSTOM_MINEABLE = of("mineable/custom");
     private static TagKey<Block> of(String id) {
         return TagKey.of(RegistryKeys.BLOCK, new Identifier(test.MOD_ID, id));

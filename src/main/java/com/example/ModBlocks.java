@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block NO_BREAK = registerBlock("no_break",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(14000.0f).requiresTool()));
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(14000f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item STRONG_PICK = registerItem("strong_pick",
-            new CustomTool(ModToolMaterial.TANZANITE, 70000, 14000f,
+            new CustomTool(ModToolMaterial.TANZANITE, 10, 10f,
                     new FabricItemSettings().maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
